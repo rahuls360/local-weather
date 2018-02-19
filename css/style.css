@@ -1,0 +1,26 @@
+.weather-info{
+  font-size: 5em;
+}
+.city{
+  font-size: 10em;
+}
+.temperature{
+  font-size: 2em;
+}
+.box{
+  background-color: rgba(127,255,212, 0.7);
+  margin: 50px;
+}
+.container{
+  min-width: 460px;
+}
+@media only screen and (max-width: 992px){
+  .city{
+    font-size: 7em;
+  }
+}
+@media only screen and (max-width: 590px){
+  .city{
+    font-size: 5em;
+  }
+}
